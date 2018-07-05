@@ -1,0 +1,22 @@
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    background-image: url(../images/mbdtf.jpeg);
+    opacity: 0.9;
+    font-weight: bold;
+    
+}
+h1 {
+    font-family: 'Encode Sans Condensed', sans-serif;
+}
+footer {
+    text-align: center;
+    color:black;
+    padding:10px;
+    margin-top:30px;
+    background-color: white;
+    opacity: 0.9;
+}
+.jumbotron {
+    background-color: white;
+}

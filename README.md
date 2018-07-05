@@ -1,2 +1,2 @@
-# HangmanGame
+# Hangman
 Hangman

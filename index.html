@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ye</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed|Open+Sans+Condensed:300" rel="stylesheet">
+    <link rel="icon" href="assests/images/mbdtf.jpg">
+    <link rel="stylesheet" type="text/css" media="screen" href="assests/css/style.css" />
+</head>
+
+<body>
+    <h1>Hangman
+    </h1>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h2>Guess my top 5 albums by Kanye West</h2>
+            <h2>Hangman style</h2>
+            <p>Scroll down and select a letter to start</p>
+            <button class="theme-button">Play mah song SWAY!!</button>
+            <h2> Hints:</h2>
+            <p id="hint"> I had a twisted fantasy where I was a dropout, because I didn't register on time. Now I will never graduate,
+                time for heartbreak.</p>
+            <h5>Note: spaces are underscores, numpad is not use</h5>
+        </div>
+        <!--Row containg guessing game-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card card-default">
+                    <div class="card-heading">
+                        <h3 class="card-title">Album title</h3>
+                    </div>
+
+                    <!-- Word blanks container -->
+                    <div class="card-body">
+                        <!-- This h3 section called word-blanks is what we"ll be replacing with letters as the user guesses. Pay particular attention to the id called ***word-blanks***. We"ll be referencing this in the JavaScript. -->
+                        <h3 id="word-blanks">_ _ _ _ _ _ _ _ _ </h3>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Wrong guesses-->
+        <div class="card card-default">
+            <div class="card-body">
+
+                <p>Wrong Guesses: </p>
+                <span id="wrong-guesses"></span>
+
+
+                <!--Guesses left-->
+            </div>
+            <div class="card card-default">
+                <div class="card-body">
+
+
+                    <p>Guesses Left: </p>
+                    <span id="guesses-left">12</span>
+
+                </div>
+
+            </div>
+        </div>
+        <!--Wins-->
+        <div class="card card-default">
+
+            <div class="card-body">
+
+                <p>Wins: </p>
+                <span id="win-counter">0</span>
+
+            </div>
+
+        </div>
+        <!--Losses-->
+        <div class="card card-default">
+            <div class="card-body">
+
+                <p>Losses: </p>
+                <span id="loss-counter">0</span>
+
+            </div>
+
+        </div>
+
+        <footer>
+            <button class="pause-button">Kill mah music SWAY!!!</button>
+            <h3>Copyright@</h3>
+        </footer>
+
+
+        <!-- Bootstrap -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+        <script src="assests/scripts/script.js"></script>
+</body>
+
+</html>
